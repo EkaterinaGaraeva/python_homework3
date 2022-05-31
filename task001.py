@@ -1,6 +1,10 @@
+# 1. Найти НОК двух чисел
+
 import math
-n = 14
-m = 21
+import random
+
+n = random.randint(2, 99)
+m = random.randint(2, 99)
 
 print(f'НОК чисел {n} и {m} равен {(n * m) // math.gcd(n , m)}')
 
